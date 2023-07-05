@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "sass": "^1.58.2",
+    "simplex-noise": "^4.0.1",
     "three": "^0.149.0",
     "vue": "^3.2.45"
   },

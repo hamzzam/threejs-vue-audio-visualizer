@@ -11,7 +11,6 @@ export default class SceneBuilder{
     renderer: THREE.WebGLRenderer
     controls: OrbitControls
     material: THREE.MeshNormalMaterial
-    directionalLight
    
     constructor(root: HTMLElement){
         this.root = root;
@@ -37,6 +36,8 @@ export default class SceneBuilder{
         this.camera.position.set( -20, 10, 20 );
         this.camera.lookAt(0,0,0)
     }
+
+    
 
     draw () {
         // LINE
